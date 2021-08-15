@@ -16,6 +16,7 @@ public class Biblioteca {
     public Biblioteca() {
         libros = new ArrayList<Libro>();
         Libro li1 = new Libro(secuenciaID, "la divina comedia", "FRT23", "Dante", 1472);
+        Libro li2 = new Libro(secuenciaID, "Inquebrantables", "JRT24", "Habif", 2021);
         libros.add(li1);
         secuenciaID++;
         cantidadLibros++;
